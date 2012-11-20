@@ -6,7 +6,23 @@
 {
     <script src='@Url.Content("~/Content/js/crud.js")'></script>
 
-}        
+}     
+
+@section PageHeader {
+
+<header class="jumbotron subhead interna" id="overview">
+  <div class="container">
+    <div class="title-header">
+        <h2>Memorandos</h2>
+    </div>
+  </div>
+</header>
+
+}   
+
+<div class="shadow-left"><img src='@Url.Content("~/Content/img/shadow-left.png")' alt="Shadow"></div>
+<div class="shadow-right"><img src='@Url.Content("~/Content/img/shadow-right.png")' alt="Shadow"></div>
+
 <table class='table'>
   <thead>
     <td>Nome</td>
